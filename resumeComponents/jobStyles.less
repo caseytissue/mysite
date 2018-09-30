@@ -20,6 +20,9 @@
   padding: 6px;
   color: @white;
   margin-bottom: 2px;
+  .phone_device({
+    padding: 14px;
+  })
 }
 
 .job_header {
@@ -42,6 +45,11 @@
     font-size: 20px;
     line-height: 22px;
     margin-right: 10px;
+  });
+  .phone_device({
+    font-size: 36px;
+    line-height: 48px;
+    white-space: initial;
   })
 }
 
@@ -51,6 +59,9 @@
   white-space: nowrap;
   .phone_size({
     margin-left: 0;
+  });
+  .phone_device({
+    font-size: 22px;
   })
 }
 
@@ -62,6 +73,9 @@
     text-align: left;
     line-height: 18px;
   });
+  .phone_device({
+    line-height: 24px;
+  })
 }
 
 .job_position {
@@ -98,6 +112,16 @@
   margin: 16px 0;
   .phone_size({
     margin: 12px 0;
+  })
+}
+
+.job_description_item:after {
+  .phone_device({
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 4px;
+    background-color: @light-gray;
   })
 }
 
@@ -155,6 +179,9 @@
   position: absolute;
   height: 32px;
   bottom: 0;
+  .phone_device({
+    height: 60px;
+  })
 }
 
 .image_controls {
@@ -162,6 +189,9 @@
   height: 24px;
   width: 100%;
   bottom: 4px;
+  .phone_device({
+    height: 48px;
+  })
 }
 
 .image_controls_anchor {
@@ -182,6 +212,9 @@
 .chevron {
   font-size: 20px;
   color: @white;
+  .phone_device({
+    font-size: 48px;
+  })
 }
 
 .chevron:hover {

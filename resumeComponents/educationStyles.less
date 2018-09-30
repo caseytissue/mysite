@@ -40,15 +40,31 @@
 
 .school_header > * {
   margin: 4px;
+  .phone_device({
+    margin: 4px 0;
+  })
 }
 
 .school_name {
   flex: 1 1 auto;
   color: @light-navy;
+  .phone_device({
+    font-size: 36px;
+  })
 }
 
 .school_location {
   flex: 0 1 auto;
   color: @light-navy;
   font-size: 16px;
+  .phone_device({
+    font-size: 26px;
+  })
+}
+
+.degree,
+.gpa {
+  .phone_device({
+    font-size: 20px;
+  })
 }

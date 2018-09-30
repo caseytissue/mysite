@@ -5,12 +5,13 @@ class NavLink extends React.Component {
     // this.selected = this.selected.bind(this);
   }
   state = {
-    selected: false
+    selected: localStorage.getItem('selected') === this.props.label
   }
 
   render() {
     const onClick = () => {
       this.setState({selected: true});
+      localStorage.setItem( 'selected', this.props.label );
     }
     const selected = this.state.selected ? "selected" : "";
     const linkClassName = "nav_link " + selected;
@@ -29,10 +30,10 @@ class NavBar extends React.Component {
 
     return(
       <div className="nav_bar">
-        <NavLink icon={"fa-home"} link={"./index.html"} label="Home" selected={false}/>
+        {/* <NavLink icon={"fa-home"} link={"./index.html"} label="Home" selected={false}/> */}
         <NavLink icon={"fa-graduation-cap"} link={"./resume.html"} label="Resume" selected={false}/>
         <NavLink icon={"fa-briefcase"} link={"./portfolio.html"} label="Portfolio" selected={false}/>
-        <NavLink icon={"fa-paint-brush"} link={"./index.html"} label="Hobbies" selected={false}/>
+        {/* <NavLink icon={"fa-paint-brush"} link={"./index.html"} label="Hobbies" selected={false}/> */}
       </div>
     );
   }

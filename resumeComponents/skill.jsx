@@ -34,6 +34,13 @@ document.querySelectorAll('#skills')
           skillName="JavaScript (React)"
           percent="60%"/>
           <Skill
+          skillName="Appian SAIL"
+          percent="65%"
+          tooltip="Appian's proprietary programming language used for generating dynamic interactive UI's"/>
+          <Skill
+          skillName="Java"
+          percent="35%"/>
+          <Skill
           skillName="SVG - Scalable Vector Graphics"
           percent="70%"
           tooltip="Animation, manipulation, styling, and use of svg's as HTML elements in web pages, etc."/>
@@ -41,13 +48,6 @@ document.querySelectorAll('#skills')
           skillName="Adobe Illustrator, Gravit, Inkscape"
           percent="70%"
           tooltip="Design and creation of SVG images"/>
-          <Skill
-          skillName="Appian SAIL"
-          percent="65%"
-          tooltip="Appian's proprietary programming language used for generating dynamic interactive UI's"/>
-          <Skill
-          skillName="Java"
-          percent="35%"/>
           <Skill
           skillName="Adobe Lightroom, Photoshop"
           percent="40%"/>
