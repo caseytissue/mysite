@@ -4,6 +4,10 @@
   display: flex;
   align-items: center;
   margin: 10px;
+  .phone_device({
+    flex-wrap: wrap;
+    justify-content: center;
+  })
 }
 
 .contact_img {
@@ -41,9 +45,6 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 12px;
-  .phone_device({
-    width: ~"calc(100% - 228px)";
-  })
 }
 
 .contact_name {
@@ -57,6 +58,8 @@
   });
   .phone_device({
     font-size: 40px;
+    text-align: center;
+    margin-top: 8px;
   })
 }
 
@@ -73,6 +76,7 @@
   .phone_device({
     font-size: 28px;
     width: 100%;
+    text-align: center;
   });
 }
 

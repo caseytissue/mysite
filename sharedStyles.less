@@ -21,8 +21,8 @@
 }
 
 .phone_device(@rules) {
-  @media only screen and (max-width: 600px) {
-  // @media only screen and (max-width: 600px) and (device-width: 600px) {
+  // @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) and (max-device-width: 600px) {
       @rules();
   }
 }
@@ -73,6 +73,9 @@ body {
   border-right: 1px solid @light-gray;
   .single_pane_width({
     border: none;
+  });
+  .phone_device({
+    max-width: 100%;
   })
 }
 
