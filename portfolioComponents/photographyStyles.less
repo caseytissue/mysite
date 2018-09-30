@@ -1,0 +1,58 @@
+@import "../sharedStyles.less";
+
+.photography_wrapper.large {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 10px 10px;
+  .medium_window({
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 200px);
+  });
+  .tablet_size({
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(12, 150px);
+  });
+  .phone_size({
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(18, 150px);
+  });
+}
+
+.photography_wrapper.medium {
+  display: grid;
+  grid-template-columns: repeat(3, 33vw);
+  grid-template-rows: repeat(6, 33vw);
+  grid-gap: 10px 10px;
+  .medium_window({
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-rows: repeat(9, 50vw);
+  });
+  .tablet_size({
+    grid-template-columns: repeat(1, 100vw);
+    grid-template-rows: repeat(18, 100vw);
+  });
+  .phone_size({
+    grid-template-columns: repeat(1, 100vw);
+    grid-template-rows: repeat(18, 100vw);
+  });
+}
+
+.photography_image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #222;
+}
+
+.photography_wrapper.medium .photography_image {
+  max-height: none;
+}
+
+.photography_image img {
+  width: 100%;
+  height: auto;
+}

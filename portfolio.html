@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume</title>
+<link rel="stylesheet/less" type="text/css" href="./portfolioComponents/photographyStyles.less" />
+<link rel="stylesheet/less" type="text/css" href="./sharedStyles.less" />
+<link rel="stylesheet/less" type="text/css" href="./navBarStyles.less" />
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Arimo|Oswald|Ubuntu|Roboto" rel="stylesheet">
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+<body>
+  <div class="nav_bar">
+    <div class="nav_link">
+      <i class="nav_link_icon fas fa-home"></i>
+      <p class="nav_link_label">Home</p>
+    </div>
+    <div class="nav_link selected">
+      <i class="nav_link_icon fas fa-graduation-cap"></i>
+      <p class="nav_link_label">Resume</p>
+    </div>
+    <div class="nav_link">
+      <i class="nav_link_icon fas fa-briefcase"></i>
+      <p class="nav_link_label">Portfolio</p>
+    </div>
+    <div class="nav_link">
+      <i class="nav_link_icon fas fa-paint-brush"></i>
+      <p class="nav_link_label">Hobbies</p>
+    </div>
+  </div>
+  <div id="photography">
+  </div>
+  <div id="hiddenDiv"></div>
+  <!-- <div class="photography_wrapper">
+    <div class="photography_image">
+      <img src="./portfolioComponents/photography/DukeDurham/1.jpg"/>
+    </div>
+    <div class="photography_image">
+      <img src="./portfolioComponents/photography/DukeDurham/1.jpg"/>
+    </div>
+    <div class="photography_image">
+      <img src="./portfolioComponents/photography/DukeDurham/1.jpg"/>
+    </div>
+    <div class="photography_image">
+      <img src="./portfolioComponents/photography/DukeDurham/1.jpg"/>
+    </div>
+  </div> -->
+  <script type="text/babel" src="./portfolioComponents/photography.jsx"></script>
+</body>
+</html>
