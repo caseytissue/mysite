@@ -178,7 +178,8 @@ document.querySelectorAll('#jobs')
             'Brainstormed, organized the logistics for, and advertised social and academic programs within a semester budget of $400 to build community among thirty residents',
             'Informed residents of policies and advertised events on campus by designing and posting bulletin boards, flyers, and handouts'
             ]}
-            img={["./resumeComponents/jobImages/IMG_5181.JPG", "./resumeComponents/jobImages/IMG_5176.JPG", "./resumeComponents/jobImages/IMG_5202.JPG", "./resumeComponents/jobImages/IMG_5234.JPG", "./resumeComponents/jobImages/IMG_20160111_070624.jpg", "./resumeComponents/jobImages/IMG_2758.JPG", "./resumeComponents/jobImages/IMG_5187.JPG", "./resumeComponents/jobImages/IMG_5194.JPG", "./resumeComponents/jobImages/IMG_5195.JPG", "./resumeComponents/jobImages/20160111_233340.jpg", "./resumeComponents/jobImages/20160111_233353.jpg", "./resumeComponents/jobImages/20160111_233353.jpg" ]}/>
+            img={["./resumeComponents/jobImages/IMG_5181.JPG", "./resumeComponents/jobImages/IMG_5176.JPG", "./resumeComponents/jobImages/IMG_5202.JPG", "./resumeComponents/jobImages/IMG_5234.JPG", "./resumeComponents/jobImages/IMG_20160111_070624.jpg", "./resumeComponents/jobImages/IMG_2758.JPG",
+            "./resumeComponents/jobImages/IMG_5187.JPG", "./resumeComponents/jobImages/IMG_5194.JPG", "./resumeComponents/jobImages/IMG_5195.JPG", "./resumeComponents/jobImages/20160111_233340.jpg", "./resumeComponents/jobImages/20160111_233353.jpg", "./resumeComponents/jobImages/20160111_233353.jpg" ]}/>
       </div>,
       domContainer
     );
