@@ -17,6 +17,10 @@
   .single_pane_width({
     width: 100px;
     height: 100px;
+  });
+  .phone_device({
+    width: 200px;
+    height: 200px;
   })
 }
 
@@ -26,6 +30,9 @@
   transform: translateX(-50%);
   .single_pane_width({
     height: 120px;
+  });
+  .phone_device({
+    height: 240px;
   })
 }
 
@@ -34,6 +41,9 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 12px;
+  .phone_device({
+    calc(100% - 228px);
+  })
 }
 
 .contact_name {
@@ -43,10 +53,14 @@
   flex: 1 1 auto;
   .phone_size({
     font-size: 36px;
+    flex: 1 1 100%;
+  });
+  .phone_device({
+    font-size: 40px;
   })
 }
 
-.contact_details_wrapper{
+.contact_details_wrapper {
   flex: 1 1 auto;
   .single_pane_width({
     align-self: flex-end;
@@ -55,5 +69,16 @@
   .phone_size({
     align-self: flex-start;
     text-align: left;
-  })
+  });
+  .phone_device({
+    font-size: 28px;
+    width: 100%;
+  });
+}
+
+.contact_details_wrapper > p {
+  .phone_device({
+    margin: 14px;
+    word-wrap: break-word;
+  });
 }
