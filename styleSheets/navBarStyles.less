@@ -1,0 +1,70 @@
+@import "./sharedStyles.less";
+
+.nav_bar {
+  max-width: 100%;
+  height: 54px;
+  // background-color: @light-teal;
+  margin-bottom: 10px;
+  display: flex;
+  background-color: @light-navy;
+  .phone_device({
+    height: 108px;
+    justify-content: center;
+  })
+}
+
+.nav_link {
+  flex: 0 1 auto;
+  text-align: center;
+  padding: 0 14px;
+  height: 100%;
+  color: @white;
+  text-decoration: none;
+}
+
+.nav_link.selected {
+  background-color: #067093;
+  position: relative;
+}
+
+.nav_link:not(.selected):hover,
+.nav_link:not(.selected):focus {
+  background-color: #055d7a;
+}
+
+.nav_link.selected:after {
+  content: "";
+  display: block;
+  border-top: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid @white;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  .phone_device({
+    border-top: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    border-bottom: 16px solid @white;
+  })
+}
+
+.nav_link_icon {
+  font-size: 20px;
+  margin-top: 6px;
+  .phone_device({
+    font-size: 40px;
+    margin: 12px 0;
+  })
+}
+
+.nav_link_label {
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  .phone_device({
+    font-size: 32px;
+  })
+}
