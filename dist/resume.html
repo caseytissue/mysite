@@ -1,0 +1,38 @@
+
+<html>
+<head>
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet/less" type="text/css" href="../src/resumeComponents/jobStyles.less" />
+<link rel="stylesheet/less" type="text/css" href="../src/resumeComponents/educationStyles.less" />
+<link rel="stylesheet/less" type="text/css" href="../src/resumeComponents/skillStyles.less" />
+<link rel="stylesheet/less" type="text/css" href="../src/resumeComponents/contactStyles.less" />
+<link rel="stylesheet/less" type="text/css" href="../src/navBar/navBarStyles.less" />
+<link rel="stylesheet/less" type="text/css" href="../src/sharedStyles.less" />
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Arimo|Oswald|Ubuntu|Roboto" rel="stylesheet"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous/">
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+  <div id="navBar"></div>
+  <div id="resume">
+    <div class="left_pane">
+      <div id="contact"></div>
+      <div id="education"></div>
+      <div id="skills"></div>
+    </div>
+    <div class="right_pane">
+      <div id="jobs"></div>
+    </div>
+  </div>
+  <script type="text/babel" src="navBar.js"></script>
+  <script type="text/babel" src="contact.js"></script>
+  <script type="text/babel" src="school.js"></script>
+  <script type="text/babel" src="skill.js"></script>
+  <script type="text/babel" src="job.js"></script>
+</body>
+</html>

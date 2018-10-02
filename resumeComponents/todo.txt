@@ -1,9 +1,0 @@
-//To Do
-// animation for RA pictures
-// flex wrapping on job title boxes at narrow width
-// tooltip styling
-// job image sizing not consistent
-
-// icons 
-
-// better load of photography images
