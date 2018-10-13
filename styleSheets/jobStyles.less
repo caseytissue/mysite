@@ -153,12 +153,11 @@
 .job_img_carousel {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 0;
+  padding-bottom: 60%;
   overflow: hidden;
   background-color: @black;
-  .medium_window({
-    min-height: 300px;
-  });
+  border: 4px solid #000;
 }
 
 .job_carousel_item {
@@ -167,14 +166,53 @@
   position: absolute;
   margin: auto;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 32px;
+  left: -10px;
+  margin: auto 10px;
+}
+
+.slideNext-enter {
+  left: ~'calc(100% + 10px)';
+}
+
+.slideNext-enter.slideNext-enter-active {
+  left: -10px;
+  right: unset;
+  transition: left 800ms ease-in;
+}
+
+.slideNext-leave {
+  right: -10px;
+}
+
+.slideNext-leave.slideNext-leave-active {
+  right: ~'calc(100% + 10px)';
+  left: unset;
+  transition: right 800ms ease-in;
+}
+
+.slidePrev-enter {
+  right: ~'calc(100% + 10px)';
+}
+
+.slidePrev-enter.slidePrev-enter-active {
+  right: -10px;
+  left: unset;
+  transition: right 800ms ease-in;
+}
+
+.slidePrev-leave {
+  left: -10px;
+}
+
+.slidePrev-leave.slidePrev-leave-active {
+  left: ~'calc(100% + 10px)';
+  right: unset;
+  transition: left 800ms ease-in;
 }
 
 .image_controls_background {
   background-color: @black;
-  opacity: 0.5;
   width: 100%;
   position: absolute;
   height: 32px;
@@ -207,6 +245,10 @@
 
 .image_controls_anchor:last-child {
   right: 8px;
+}
+
+.image_controls_anchor:active .chevron {
+  transform: scale(.96);
 }
 
 .chevron {
