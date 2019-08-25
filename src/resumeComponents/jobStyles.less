@@ -1,0 +1,268 @@
+@import "./sharedStyles.less";
+
+.job_box {
+  display: block;
+  width: calc(~"100% - 20px");
+  min-width: 320px;
+  margin: 10px;
+  margin-bottom: 14px;
+}
+
+.job_box:not(:last-child):after {
+  content: "";
+  display: block;
+  height: 16px;
+  border-bottom: 1px solid @light-gray;
+}
+
+.job_header_wrapper {
+  background-color: @navy;
+  padding: 6px;
+  color: @white;
+  margin-bottom: 2px;
+  .phone_device({
+    padding: 14px;
+  })
+}
+
+.job_header {
+  display: flex;
+  overflow: hidden;
+  .phone_size({
+    flex-wrap: wrap;
+  });
+}
+
+.job_company {
+  flex: 1 1 auto;
+  font-size: 22px;
+  line-height: 40px;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  .phone_size({
+    font-size: 20px;
+    line-height: 22px;
+    margin-right: 10px;
+  });
+  .phone_device({
+    font-size: 36px;
+    line-height: 48px;
+    white-space: initial;
+  })
+}
+
+.job_position_date_wrapper {
+  flex: 0 1 auto;
+  margin: 0 0 0 8px;
+  white-space: nowrap;
+  .phone_size({
+    margin-left: 0;
+  });
+  .phone_device({
+    font-size: 22px;
+  })
+}
+
+.job_position_date_wrapper p {
+  margin: 0 4px 0 0;
+  line-height: 20px;
+  text-align: right;
+  .phone_size({
+    text-align: left;
+    line-height: 18px;
+  });
+  .phone_device({
+    line-height: 24px;
+  })
+}
+
+.job_position {
+  font-style: italic;
+  margin: 4px 0 0 0;
+}
+
+.job_description_wrapper {
+  display: flex;
+  position: relative;
+  .medium_window({
+    flex-wrap: wrap;
+  });
+}
+
+.job_description {
+  flex: 0 1 auto;
+  color: @dark-gray;
+  margin-right: 10px;
+  min-width: 280px;
+  .phone_size({
+    margin-right: 0;
+  })
+}
+
+.job_description_list {
+  padding: 0 8px;
+  margin: 0;
+}
+
+.job_description_item {
+  list-style: none;
+  font-size: 1rem;
+  margin: 16px 0;
+  .phone_size({
+    margin: 12px 0;
+  })
+}
+
+.job_description_item:after {
+  .phone_device({
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 4px;
+    background-color: @light-gray;
+  })
+}
+
+.job_description_item:first-child {
+  .phone_size({
+    margin-top: 4px;
+  })
+}
+
+.job_image {
+  flex: 1 1 60%;
+  min-width: 280px;
+}
+
+.job_site_link {
+  max-width: 100%;
+}
+
+.job_iframe_wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.job_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.job_img_carousel {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 60%;
+  overflow: hidden;
+  background-color: @black;
+  border: 4px solid #000;
+}
+
+.job_carousel_item {
+  width: 100%;
+  min-width: 280px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 32px;
+  left: -10px;
+  margin: auto 10px;
+}
+
+.slideNext-enter {
+  left: ~'calc(100% + 10px)';
+}
+
+.slideNext-enter.slideNext-enter-active {
+  left: -10px;
+  right: unset;
+  transition: left 800ms ease-in;
+}
+
+.slideNext-exit {
+  right: -10px;
+}
+
+.slideNext-exit.slideNext-exit-active {
+  right: ~'calc(100% + 10px)';
+  left: unset;
+  transition: right 800ms ease-in;
+}
+
+.slidePrev-enter {
+  right: ~'calc(100% + 10px)';
+}
+
+.slidePrev-enter.slidePrev-enter-active {
+  right: -10px;
+  left: unset;
+  transition: right 800ms ease-in;
+}
+
+.slidePrev-exit {
+  left: -10px;
+}
+
+.slidePrev-exit.slidePrev-exit-active {
+  left: ~'calc(100% + 10px)';
+  right: unset;
+  transition: left 800ms ease-in;
+}
+
+.image_controls_background {
+  background-color: @black;
+  width: 100%;
+  position: absolute;
+  height: 32px;
+  bottom: 0;
+  .phone_device({
+    height: 60px;
+  })
+}
+
+.image_controls {
+  position: absolute;
+  height: 24px;
+  width: 100%;
+  bottom: 4px;
+  .phone_device({
+    height: 48px;
+  })
+}
+
+.image_controls_anchor {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.image_controls_anchor:first-child {
+  left: 8px;
+}
+
+.image_controls_anchor:last-child {
+  right: 8px;
+}
+
+.image_controls_anchor:active .chevron {
+  transform: scale(.96);
+}
+
+.chevron {
+  font-size: 20px;
+  color: @white;
+  .phone_device({
+    font-size: 48px;
+  })
+}
+
+.chevron:hover {
+  filter: drop-shadow(0px 0px 2px #999);
+}

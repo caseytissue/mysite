@@ -1,0 +1,10 @@
+//To Do
+// make RA pictures same size
+// flex wrapping on job title boxes at narrow width
+// tooltip styling
+// job image sizing not consistent
+// tooltips on mobile don't show info
+
+// icons 
+
+// better load of photography images, slow
