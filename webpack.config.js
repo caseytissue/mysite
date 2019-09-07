@@ -17,7 +17,10 @@ module.exports = {
     school: './src/resumeComponents/school.jsx',
     skill: './src/resumeComponents/skill.jsx',
     job: './src/resumeComponents/job.jsx',
-    recipe: './src/recipeComponents/recipe.jsx'
+    recipe: './src/recipeComponents/recipe.jsx',
+    dessert: './src/recipeComponents/dessert.jsx',
+    chicken: './src/recipeComponents/chicken.jsx',
+    breakfast: './src/recipeComponents/breakfast.jsx'
   },
   output: {
     filename: '[name].js',

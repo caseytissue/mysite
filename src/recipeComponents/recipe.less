@@ -1,9 +1,18 @@
 @import "./sharedStyles.less";
 
+
+.recipe_group_title {
+  margin: 5px;
+}
+
 .recipe_group_wrapper {
   display: flex;
   margin: -5px 5px;
   justify-content: center;
+  flex-wrap: wrap;
+  .phone_device({
+    flex-direction: column;
+  })
 }
 
 .recipe_box {
@@ -11,6 +20,9 @@
   padding: 10px;
   margin: 5px;
   width: 450px;
+  .phone_device({
+    width: unset;
+  })
 }
 
 .recipe_title {
