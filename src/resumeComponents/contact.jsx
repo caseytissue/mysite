@@ -21,8 +21,8 @@ document.querySelectorAll('#contact')
     ReactDOM.render(
       <Contact
           img="./contactImage/APN18462.jpg"
-          name="Cassidy Tissue"
-          email="cassidytissue@gmail.com"
+          name="Casey Park"
+          email="caseypark30@gmail.com"
           phone="717-713-7590"/>,
       domContainer
     )

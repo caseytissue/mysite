@@ -18,9 +18,8 @@ module.exports = {
     skill: './src/resumeComponents/skill.jsx',
     job: './src/resumeComponents/job.jsx',
     recipe: './src/recipeComponents/recipe.jsx',
-    dessert: './src/recipeComponents/dessert.jsx',
-    chicken: './src/recipeComponents/chicken.jsx',
-    breakfast: './src/recipeComponents/breakfast.jsx'
+    recipe_filter: './src/recipeComponents/recipe_filter.jsx',
+    recipes_and_filters: './src/recipeComponents/recipes_and_filters.jsx'
   },
   output: {
     filename: '[name].js',
@@ -42,6 +41,7 @@ module.exports = {
       { from: 'src/resumeComponents/jobStyles.less', to: 'styleSheets' },
       { from: 'src/resumeComponents/skillStyles.less', to: 'styleSheets' },
       { from: 'src/recipeComponents/recipe.less', to: 'styleSheets' },
+      { from: 'src/recipeComponents/recipe_filter.less', to: 'styleSheets' },
       { from: 'src/sharedStyles.less', to: 'styleSheets' },
     ])
   ],

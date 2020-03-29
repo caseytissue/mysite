@@ -1,0 +1,35 @@
+@import "./sharedStyles.less";
+
+.filter_group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter_list_item {
+  list-style: none;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+.recipe_filters_input {
+  position: relative;
+  margin-right: 4px;
+}
+
+.recipe_filters_input:before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  bottom: -3px;
+  right: -2px;
+  left: -2px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  padding: 1px 1px;
+}
+
+.recipe_filters_input:checked:before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  color: @dark-teal;
+  font-size: 13px;
+}

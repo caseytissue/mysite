@@ -1,10 +1,18 @@
 //To Do
+
+// Resume Page:
 // make RA pictures same size
 // flex wrapping on job title boxes at narrow width
 // tooltip styling
 // job image sizing not consistent
 // tooltips on mobile don't show info
+// animation for image carousel
 
-// icons 
-
+// Portfolio Page:
 // better load of photography images, slow
+// equal side margin around portfolio images - see vids
+// click to expand a picture
+
+// Recipes Page:
+// add tags
+// make searchable
