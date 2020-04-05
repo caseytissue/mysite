@@ -4,11 +4,13 @@ import { listOfRecipes } from "./recipe_list.js"
 
 let listOfAllTags = {};
 const tagColorList = [
-  "#067093",
-  "#A1D7D3",
-  "#69C0B9",
-  "#044a62",
-  "#033242"
+  "#0AC9B6",
+  "#E05421",
+  "#EF6B00",
+  "#FF9F0F",
+  "#428E00",
+  "#BC2F00",
+  "#00756B"
 ];
 
 class RecipesAndFilters extends React.Component {
@@ -26,7 +28,8 @@ class RecipesAndFilters extends React.Component {
       for (var j in recipe.tags) {
         const tag = recipe.tags[j];
         if(!listOfTags[tag]) {
-          listOfTags[tag] = tagColorList[j%5];
+          const color = tagColorList[Object.keys(listOfTags).length%7];
+          listOfTags[tag] = color;
         }
       };
     };
@@ -105,6 +108,7 @@ class RecipesAndFilters extends React.Component {
           tags={recipe.tags}
           tagColors={tagColors}
           visible={atLeastOneTagIsSelected}
+          headerColor={tagColorList[i%7]}
         />
       );
     });

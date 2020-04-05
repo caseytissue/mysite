@@ -23,7 +23,7 @@ export class Recipe extends React.Component {
 
     return this.props.visible ? (
       <div className="recipe_box">
-        <div className="recipe_heading">
+        <div className="recipe_heading" style={{backgroundColor: `${this.props.headerColor}`}}>
           <img className="recipe_image" src={this.props.image}/>
           <h2 className="recipe_title">{this.props.title}</h2>
         </div>

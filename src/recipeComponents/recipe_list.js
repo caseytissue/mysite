@@ -1,11 +1,19 @@
 export const listOfRecipes = [
   {
     image:"",
+    title:"French Macarons",
+    ingredients:["100g egg whites, room temperature (~3 egg whites). Best if aged in fridge in covered dish for two days.", "140g almond flour", "90g granulated sugar", "130g powdered sugar", "1 tsp vanilla", "1/4 tsp cream of tartar"],
+    instructions:["Preheat oven to 300 degrees F.", "Sift confectioner's sugar and almond flour and blend in food processor in several rounds for smoothest consistency.", "Using an electric mixer, whisk room temperature egg whites. Once they begin to foam, add the cream of tartar, and then slowly add the granulated sugar.", "Add desired food coloring and vanilla to egg whites.", "Merengue should be very stiff. It should be a marshmallow-y texture, and start to fill the whisk when it is close to done. Add coloring near the final stages of whipping the merengue. When the merengue is forming stiff peaks with the whisk, it is done.", "Pouring in 1/3 of dry ingredients at a time, carefully fold the batter together, removing some bubbles, but not too many. The final consistency should be lava-like (slow and thick). When you scoop batter with the spatula and let it fall, you should be able to make a non-broken, ribbon-like figure 8.", "Transfer batter to a piping bag with a round tip. Pipe perpendicular to the baking sheet for even macaron shells.", "Tap the tray a few times to get any air bubbles out (or poke with toothpicks as needed). Let macaraons set for 45 minutes. They should eventually form a firm skin so that touching them will not leave any residue on your finger.", "Bake for 17 minutes, rotating tray after 7 minutes. Wait for them to cool before piping the shells with desired filling."],
+    nutrition:"",
+    tags:["cookie"]
+  },
+  {
+    image:"",
     title:"Protein Powder Pancakes",
     ingredients:["4 egg whites", "1 scoop protein powder", "1/4 tsp baking powder"],
     instructions:["Whip egg whites in a bowl until foamy", "Mix in the protein powder and baking powder until mixture is smooth", "Pour a small amount into a heated skillet", "When top side starts to look dry, pancake is ready to flip"],
     nutrition:"",
-    tags:["protein powder", "breakfast"]
+    tags:["protein powder", "breakfast", "healthy"]
   },
   {
     image:"",
@@ -13,7 +21,7 @@ export const listOfRecipes = [
     ingredients:["1 banana", "2 eggs", "1/2 tsp vanilla", "1/2 tsp cinnamon", "Optional: 1/4 cup pumpkin and an extra egg for pumpkin flavor"],
     instructions:["Mix all ingredients in a bowl until consistency is smooth", "Pour batter into heated skillet and cook for about 30 seconds on each side - they brown very quickly", "Optional: Swap out half a banana for 1/2 cup of pumpkin"],
     nutrition:"",
-    tags:["banana", "breakfast"]
+    tags:["banana", "breakfast", "healthy"]
   },
   {
     image:"",
@@ -21,7 +29,7 @@ export const listOfRecipes = [
     ingredients:["1/2 cup canned pumpkin", "1/2 cup greek yogurt", "1/4 cup flour", "1 egg yolk", "4 egg whites", "1/4 tsp baking soda", "1/4 tsp salt", "1 1/2 tbsp pumpkin spice", "1/2 tbsp cinnamon"],
     instructions:["Mix pumpkin, yogurt, flour, and egg yolk together", "Add the egg whites, salt, and other spices", "Cook on medium heat"],
     nutrition:"",
-    tags:["pumpkin", "breakfast", "yogurt"]
+    tags:["pumpkin", "breakfast", "yogurt", "healthy"]
   },
   {
     image:"",
@@ -29,7 +37,7 @@ export const listOfRecipes = [
     ingredients:["1 scoop of protein powder", "1 egg", "1 tsp baking powder", "Sprinkle of cinnamon", "Almond milk to thin out the batter", "Flour to offset protein powder"],
     instructions:["Mix ingredients together", "Cook on medium heat"],
     nutrition:"",
-    tags:["protein powder", "breakfast"]
+    tags:["protein powder", "breakfast", "healthy"]
   },
   {
     image:"",
@@ -45,7 +53,7 @@ export const listOfRecipes = [
     ingredients:["1 scoop protein", "1/4 cup oats", "1/4 tsp baking powder", "2 tbsp apple sauce", "1 egg white", "Chopped apple slices", "Blueberries", "Cinnamon"],
     instructions:["Preheat oven to 350 degrees F", "Mix all ingredients together, and pour into baking dish", "Bake 35 - 40 minutes"],
     nutrition:"",
-    tags:["protein powder", "oatmeal", "breakfast"]
+    tags:["protein powder", "oatmeal", "breakfast", "healthy"]
   },
   {
     image:"",
@@ -61,7 +69,7 @@ export const listOfRecipes = [
     ingredients:["Rotisserie chicken", "Celery Sticks", "Favorite Sauce (hot sauce, ranch, etc)"],
     instructions:["Mix chicken and sauce", "Cut celery sticks into 'boats'", "Place chicken mixture into celery boats"],
     nutrition:"",
-    tags:["chicken"]
+    tags:["chicken", "healthy"]
   },
   {
     image:"",
@@ -69,7 +77,7 @@ export const listOfRecipes = [
     ingredients:["2 ripe bananas", "1 egg", "1/4 cup greek yogurt", "1/2 tsp vanilla", "1 cup flour", "1/4 tsp baking powder", "1/2 tsp baking soda", "1/2 tsp cinnamon", "1/8 tsp salt"],
     instructions:["Preheat oven to 350 degrees F and grease a loaf pan", "Mix all wet ingredients together", "Mix all dry ingredients in a separate bowl", "Pour dry mix into wet mix, and fold without overmixing", "Add extra mix-ins: blueberries, nuts, chocolate chips, etc", "Pour into loaf pan", "Bake for 40 minutes or until a knife inserted comes out clean"],
     nutrition:"",
-    tags:["banana", "bread", "yogurt"]
+    tags:["banana", "bread", "yogurt", "healthy"]
   },
   {
     image:"",
@@ -81,11 +89,11 @@ export const listOfRecipes = [
   },
   {
     image:"",
-    title:"Banana Bars",
-    ingredients:["1 cup mashed bananas (3 bananas)", "1/3 cup sugar", "3 tbsp unsalted softened butter", "2 tbsp milk", "1 egg", "1 tsp vanilla extract", "3/4 cup flour", "1/2 tsp baking soda", "1/2 tsp ground cinnamon", "1/8 tsp nutmeg", "1/4 tsp salt", "1/3 cup chocolate chips"],
-    instructions:["Place rack in center of oven, and preheat to 350 degrees F", "Line an 8x8 inch baking pan with parchment paper and cooking spray", "Mash bananas in a bowl, and stir in sugar, butter, milk, egg, and vanilla until well blended", "In a separate bowl, mix flour, baking soda, cinnamon, nutmeg, and salt", "Add dry ingredients to wet ingredients until well-blended", "Fold in chocolate chips", "Scrape batter into prepared baking dish", "Bake for 16-20 minutes or until a toothpick comes out mostly clean (a few crumbs will stick)", "To make these more chocolate-y, add 1/2 cup cocoa powder, and omit cinnamon and nutmeg"],
+    title:"Low-Cal Pumpkin Bread",
+    ingredients:["2 eggs", "1 15oz can of pumpkin puree", "1/2 cup greek yogurt", "1/4 cup and 2 tbsp brown sugar", "2 tbsp oil (optional)", "2 cups flour", "2 tsp pumpkin spice", "1 tsp baking powder", "1 tsp baking soda", "1/4 tsp salt", "1 tbsp brown sugar mixed with 1 tsp cinnamon to sprinkle on top of loaf"],
+    instructions:["Preheat oven to 350 degrees F, and prepare a loaf pan", "Beat the eggs, and then mix in pumpkin, oil, sugar, and yogurt until smooth.", "Whisk together flour, spices, salt, baking powder, and baking soda", "Mix the wet and dry ingredients together, and pour into loaf pan. Sprinkle extra sugar and cinnamon on top", "Bake for 60-70 minutes or until a knife inserted comes out clean"],
     nutrition:"",
-    tags:["banana", "bar"]
+    tags:["pumpkin", "bread", "healthy", "yogurt"]
   },
   {
     image:"",
@@ -93,7 +101,7 @@ export const listOfRecipes = [
     ingredients:["1 banana", "3/4 cup oats", "2/3 tbsp cinnamon"],
     instructions:["Preheat oven to 350 degrees F", "Mash banana in medium sized bowl", "Pour oats into bowl and mix together", "Mix in cinnamon or other toppings", "Scoop cookie balls onto a baking sheet and bake for 10 minutes"],
     nutrition:"",
-    tags:["banana", "oatmeal", "cookie"]
+    tags:["banana", "oatmeal", "cookie", "healthy"]
   },
   {
     image:"",
@@ -129,11 +137,11 @@ export const listOfRecipes = [
   },
   {
     image:"",
-    title:"Another Cinnamon Apple Cake",
+    title:"Low-Cal Cinnamon Apple Cake",
     ingredients:["120g flour", "2 tsp baking powder", "2 tsp cinnamon", "1 tsp nutmeg", "Pinch of salt", "1 egg", "15g melted butter", "120g yogurt", "85ml maple syrup", "85ml milk", "1 tsp vanilla extract", "1 tsp ginger", "Sliced/Chunked apple"],
     instructions:["Preheat oven to 350 degrees F", "Mix dry ingredients together", "In a separate bowl, mix wet ingredients", "Combine dry and wet ingredients", "Mix in apple chunks or slices", "Bake for 25 minutes"],
     nutrition:"",
-    tags:["apple", "cake", "yogurt"]
+    tags:["apple", "cake", "yogurt", "healthy"]
   },
   {
     image:"",
@@ -145,11 +153,11 @@ export const listOfRecipes = [
   },
   {
     image:"",
-    title:"Pumpkin Pie (low cal)",
+    title:"Low-Cal Pumpkin Pie",
     ingredients:["1 can pumpkin", "1/2 cup whole milk", "3/4 cup egg beaters", "2 tsp pumpkin spice", "1 tsp xanthan gum (for rigidity)", "1/2 tsp salt", "3/4 cup Splenda"],
     instructions:["Preheat oven to 350 degrees F", "Greace an 8 or 9 inch aluminum pie form. Springform pans are the best for crustless custards", "Whisk dry items: Xanthan gum, Splenda, salt, and spices", "Whisk egg beaters by themselves, and then mix in pumpkin pulp and milk", "Combine wet and dry ingredients and mix well", "Pour mixture into pie dish, and bake for 20 minutes, rotate the pie dish 180 degrees in the oven, and bake for another 20 minutes or until set on edges and wobbly in middle", "Let cool for an hour at room temperature before cutting"],
     nutrition:"",
-    tags:["pumpkin", "pie"]
+    tags:["pumpkin", "pie", "healthy"]
   },
   {
     image:"",
@@ -157,7 +165,7 @@ export const listOfRecipes = [
     ingredients:["Donut: 45g protein powder", "Donut: 15g flour", "Donut: 5g stevia", "Donut: 5g baking powder", "Donut: 70g greek yogurt", "Donut: 70g unsweetened apple sauce", "Donut: 75g egg whites", "Frosting: 20g protein powder", "Frosting: 6g flour", "Frosting: 45g greek yogurt", "Frosting: 3g stevia", "Frosting: Splash of water"],
     instructions:["Mix the first half of the ingredients for donut batter", "Bake in donut pans", "Mix second half of ingredients for frosting on the donuts"],
     nutrition:"",
-    tags:["protein powder", "donut", "yogurt"]
+    tags:["protein powder", "donut", "yogurt", "healthy"]
   },
   {
     image:"",
@@ -166,14 +174,6 @@ export const listOfRecipes = [
     instructions:["Preheat oven to  350 degrees F, and line a baking dish with parchment paper", "Stir pumpkin, sugar, butter/applesauce, milk, egg, and vanilla until well blended", "In a separate bowl, stir together flour, baking soda, cocoa powder, salt, and cinnamon", "Add the dry ingredients to the wet ingredients", "Fold in most of the chocolate chips, saving some to sprinkle on top", "Scrapte batter into the baking pan, and sprinkle remaining chips on top", "Bake for 16 to 20 minutes or until a toothpick inserted in center comes out clean", "Cool brownies on counter and cut only once completely cooled"],
     nutrition:"",
     tags:["pumpkin", "brownie"]
-  },
-  {
-    image:"",
-    title:"Banana Brownies",
-    ingredients:["1 cup mashed ripe banana (3 bananas)", "4 tbsp sugar", "3 tbsp melted butter (or unsweetened applesauce)", "2 tbsp milk", "1 egg", "1 tsp vanilla extract", "3/4 cup flour", "1/2 cup cocoa powder", "1/2 tsp baking soda", "1/4 tsp salt", "6 tbsp chocolate chips"],
-    instructions:["Preheat oven to  350 degrees F, and line a baking dish with parchment paper", "Mash banana, and stir sugar, butter/applesauce, milk, egg, and vanilla until well blended", "In a separate bowl, stir together flour, baking soda, cocoa powder, and salt", "Add the dry ingredients to the wet ingredients", "Fold in most of the chocolate chips, saving some to sprinkle on top", "Scrapte batter into the baking pan, and sprinkle remaining chips on top", "Bake for 16 to 20 minutes or until a toothpick inserted in center comes out clean", "Cool brownies on counter and cut only once completely cooled"],
-    nutrition:"",
-    tags:["banana", "brownie"]
   },
   {
     image:"",
@@ -189,7 +189,7 @@ export const listOfRecipes = [
     ingredients:["1 1/2 cups flour", "1 cup sugar", "2 tsp baking powder", "3/4 tsp salt", "3 eggs", "1 2 cups yogurt", "1/2 tsp vanilla extract", "1 cup frozen raspberries"],
     instructions:["Preheat oven to 350 degrees F", "Line a 9 inch cake pan with parchment paper and lightly coat with non-stick spray", "Whisk flour, sugar, baking powder, and salt in large bowl", "Whis eggs, yogurt, and vanilla in a medium bowl until smooth", "Fold wet ingredients into dry ingredients until blended", "Fold in 3/4 cup raspberries", "Scrape batter into prepared pan and sprinkle remaining 1/4 cup raspberries on top", "Bake 50-60 minutes or until cake is golden brown and a toothpick inserted in center comes out clean", "Let cool at least 20 minutes before unmolding"],
     nutrition:"",
-    tags:["raspberry", "cheesecake", "yogurt"]
+    tags:["raspberry", "cheesecake", "yogurt", "healthy"]
   },
   {
     image:"",
@@ -213,15 +213,7 @@ export const listOfRecipes = [
     ingredients:["250g greek yogurt", "5g vanilla extract", "5g agave syrup", "100g frozen summer fruit/berries", "15g chocolate"],
     instructions:["Mix yogurt, vanilla, and syrup", "Pour yogurt mixture into a container, and sprinkle berries on top", "Melt chocolate and sprinkle over the top", "Freeze, and cut into pieces"],
     nutrition:"",
-    tags:["yogurt", "chocolate"]
-  },
-  {
-    image:"",
-    title:"Fudgy Oat Bars",
-    ingredients:["3 cups quick oats", "2 tbsp maple syrup", "2 tbsp oil or butter", "1/2 cup unsweetened applesauce or mashed banana", "1 tsp vanilla extract", "1/2 tsp salt", "1/2 cup nut butter", "1/2 cup chocolate chips"],
-    instructions:["Melt butter or use oil, and mix with applesauce/banana, maple syrup, and vanilla", "Fold in oats and salt", "Melt chocolate and nut butter in microwave, and mix until smooth", "linke an 8x8 pan with parchment paper, and press 2/3 of the oat mixture into pan", "Spread chocolate nut mixture on top of oats", "Pour remaining oat mixture on top, pressing down gently", "Freeze until firm", "Thaw for 5 minutes before slicing"],
-    nutrition:"",
-    tags:["oatmeal", "bar", "chocolate"]
+    tags:["yogurt", "chocolate", "healthy"]
   },
   {
     image:"",
@@ -241,30 +233,6 @@ export const listOfRecipes = [
   },
   {
     image:"",
-    title:"Peanut Butter Cheesecake Popsicles",
-    ingredients:["1 medium banana", "2 tbsp peanut butter", "1/2 cup greek yogurt", "2.5 sheets graham crackers"],
-    instructions:["Blend everything but the graham crackers", "crumble the crackers into the mixture and freeze for 8 hours in popsicle molds"],
-    nutrition:"",
-    tags:["peanut butter", "cheesecake", "yogurt"]
-  },
-  {
-    image:"",
-    title:"Oatmeal cups",
-    ingredients:["2 cups oats", "4 eggs", "2 bananas mashed", "1 apple diced", "1/2 cup greek yogurt", "2 tsp baking powder", "Pinches of cinnamon, salt, vanilla extract"],
-    instructions:["Preheat oven to 350 degrees F", "Separately mix wet and dry ingredients, folding in apple with the dry ingredients", "Combine mixes, and bake for 25 minutes until browned"],
-    nutrition:"",
-    tags:["oatmeal, banana", "yogurt"]
-  },
-  {
-    image:"",
-    title:"Mini Pumpkin Pies",
-    ingredients:["Crust: 2 bananas mashed", "Crust: 2 cups rolled oats", "Filling: 15oz can pumpkin puree", "Filling: 1 cup greek yogurt", "Filling: 6 egg whites (or 2 eggs)", "Filling: 6 tbsp brown sugar", "Filling: 1 tsp vanilla extract", "Filling: 2 tsp ground cinnamon", "Filling: 1 tsp pumpkin pie spice", "Filling: 1/4 tsp salt"],
-    instructions:["Preheat oven to 350 degrees F and spray a muffin tin", "Press crust into muffin pan and bake for 10 minutes", "Combine filling ingredients, and pour into muffin pan", "Bake for 20 minutes, let it cool, and refrigerat until they are set"],
-    nutrition:"",
-    tags:["pumpkin", "pie", "yogurt"]
-  },
-  {
-    image:"",
     title:"Pumpkin Blueberry Muffins",
     ingredients:["2 cups flour", "2 tsp baking powder", "1/4 tsp salt", "1-2 tsp pumpkin pie spice", "1 egg", "2 tbsp nut butter", "1 cup pumpkin puree", "4 tbsp maple syrup", "4 tbsp sugar", "1 tsp vanilla exract", "1 cup blueberries"],
     instructions:["Preheat oven to 375 and prepare a muffin tin", "Mix all dry ingredients in a small bowl, and thoroughly mix all wet in a large bowl", "Add blueberries to the dry bowl", "Pour all ingredients to the wet bowl and mix until combined", "Pour into muffin tins, and bake 20-30 minutes or until toothpick inserted in center comes out clean"],
@@ -281,19 +249,11 @@ export const listOfRecipes = [
   },
   {
     image:"",
-    title:"Cinnamon Raisin Protein Banana Bread",
-    ingredients:["3 spotty bananas mashed", "1 egg", "1/2 cup greek yogurt", "1 cup flour", "3 scoops protein powder", "1 tbsp cinnamon", "1/2 tsp baking powder", "1/2 tsp baking soda", "1/4 tsp salt", "1/4 cup raisins"],
-    instructions:["Preheat oven to 350 degrees F and prepare a loaf pan", "Mix wet and dry ingredients sparately, and then fold together without overmixing", "Pour into loaf pan and bake for 40-60 minutes until a toothpick inserted in center comes out clean"],
+    title:"Protein Banana Bread",
+    ingredients:["2 spotty bananas mashed", "1 egg", "1/4 cup greek yogurt", "2/3 cup flour", "2 scoops protein powder", "1/2 tbsp cinnamon", "1/2 tsp baking powder", "1/2 tsp baking soda", "1/4 tsp salt", "handful of raisins, blueberries, or other mix-ins"],
+    instructions:["Preheat oven to 350 degrees F and prepare a loaf pan", "Mix wet and dry ingredients sparately, and then fold together without overmixing", "Pour into loaf pan and bake for 40-60 minutes until a toothpick inserted in center comes out clean (for muffins, bake about 17 minutes)"],
     nutrition:"",
-    tags:["protein", "banana", "bread"]
-  },
-  {
-    image:"",
-    title:"Peanut Butter Banana Bread Donuts",
-    ingredients:["2 ripe bananas", "1 egg", "2 tbsp peanut butter", "1 tsp vanilla exract", "4 tbsp sugar", "3/4 cup flour", "1/4 cup powdered PB2", "1/2 tsp baking powder", "1/2 tsp baking soda", "1/4 tsp salt"],
-    instructions:["Preheat oven to 350 degrees F and grease a pan", "Blend all wet ingredients including banana and sugar in a food processor (if blended by hand, donuts will be denser)", "Fold in the flour, powdered peanut, baking powder, baking soda, and salt", "Bake for 15-20 minutes until centers are done"],
-    nutrition:"",
-    tags:["peanut butter", "banana", "donut"]
+    tags:["protein", "banana", "bread", "healthy"]
   },
   {
     image:"",
@@ -302,14 +262,6 @@ export const listOfRecipes = [
     instructions:["Preheat oven to 350 degrees F, and prepare a muffin tin", "Mix sugar and zest together", "Whisk together all wet ingredients, and separately all dry ingredients, and fold the dry into the wet", "Pour into muffin pan and bake 25-30 minutes"],
     nutrition:"",
     tags:["lemon", "blueberry", "muffin"]
-  },
-  {
-    image:"",
-    title:"Chocolate banana bread pudding",
-    ingredients:["100g day-old bread cubed", "1 egg", "1 cup milk", "1 tbsp maple syrup", "1/2 tsp vanilla extract", "1/2 tsp ground cinnamon", "1/8 tsp salt", "1 ripe banana chopped", "3 tbsp chocolate chips"],
-    instructions:["Preheat oven to 350 degrees F, and prepare a loaf pan", "Whisk together all the wet ingredients", "Place the bread pieces in the wet bowl and let sit for 10 minutes", "Fold in the chopped banana, saving some of each to decorate the top of the loaf", "Pour mix into pan, decorate the top, and bake for 40 minutes until bread is golden"],
-    nutrition:"",
-    tags:["chocolate", "banana", "bread pudding"]
   },
   {
     image:"",
@@ -366,6 +318,94 @@ export const listOfRecipes = [
     instructions:["Lightly grease a 9 inch pie pan", "Whisk together the flour, sugar, clearjel, xanthan gum, and salt", "cut the cold butter into pats, then work the pats into the flour mixture until it's crumbly, with some larger, pea-sized chunks of butter remaining", "Whisk the egg and vinegar or lemon juice together until very foamy. Mix into the dry ingredients. Stir until the mixture holds together, adding 1 to 3 additional tbsp of cold water if necessary", "Shape into a ball and chill for an hour, or up to overnight", "Allow the dough to rest at room temperature for 10 to 15 minutes before rolling", "Roll out on a piece of plastic wrap, on a silicone rolling mat, or in a pie bag that's been heavily sprinkled with gluten free flour. Invert the crust into the prepared pie pan", "Fill and bake as your pie directs", "Shield the edges of the crust so that they don't burn in the oven (due to the eggs in the crust)", "If making a fruit pie, apply strong heat to the bottom crust at the beginning of the baking time to prevent sogginess (425 degrees F for 20 minutes on bottom rack, then switch to 350 degrees F on middle rack). Use a metal pie pan.", "The top of a double-crust pie will brown slightly, but brushing it with milk and sprinkling it with sugar will enhance its browning and add sweet crunch."],
     nutrition:{servings: 8, calories: 173, sodium: 156, fat: 9, carbs: 20, sugar:2, fiber: 0, cholesterol: 49, protein: 1},
     tags:["King Arthur Flour", "pie"]
+  },
+  {
+      image:"",
+      title:"Sweet Potato Casserole",
+      ingredients:["4 tbsp unsalted butter, melted", "3 to 4 large sweet potatoes, (1 3/4 lbs), peeled and cubed", "1/2 cup milk", "1/4 cup brown sugar, packed", "1 tsp pure vanilla extract", "1/2 tsp salt", "2 eggs", "Topping: 1/2 cup flour", "1/2 cup brown sugar, packed", "1/4 tsp salt", "2/4 cup chopped pecans"],
+      instructions:["Add the peeled and cubed sweet potatoes to a large pot of salted water. Bring to a boil over high heat, then lower the heat and simmer until the potatoes are tender (15 to 20 min). Drain, cool, and mash the sweet potatoes.", "Preheat the oven to 350 degrees F. Butter a baking dish.", "Whisk together the butter, sweet potatoes, milk, brown suagar, vanilla, salt, and eggs in a bowl. Transfer to the baking dish.", "For the topping, combine flour, brown sugar, butter, and salt in a medium bowl until the mixture clumps together. Stir in the pecans.", "Spread the topping over the sweet potatoes evenly.", "Bake until mostly set in the center (25 to 30 min)."],
+      nutrition:"",
+      tags:["sweet potato"]
+    },
+    {
+    image:"",
+    title:"Blueberry Bread or Muffins",
+    ingredients:["1 egg", "1/2 cup applesauce", "2 tbsp sweetener", "1 cup flour", "1 tsp baking powder", "2/3 cup blueberries"],
+    instructions:["Preheat oven to 350 degrees F, and prepare a baking dish.", "Mix all ingredients together, without overmixing, adding the blueberries at the end", "Bake 50 minutes"],
+    nutrition:"",
+    tags:["blueberries", "muffin", "bread", "healthy"]
+  },
+  {
+    image:"",
+    title:"Microwave Pumpkin Pie",
+    ingredients:["1/4 cup pumpkin puree", "1 tsp sugar", "1 tbsp egg white", "2 tbsp flour", "2 tbsp milk", "1/4 tsp baking powder", "pumpkin pie spice"],
+    instructions:["Mix all ingredients together, and microwave for 1.5 - 2 minutes"],
+    nutrition:"",
+    tags:["pumpkin", "healthy"]
+  },
+  {
+    image:"",
+    title:"Pizza Muffins",
+    ingredients:[],
+    instructions:[],
+    nutrition:"",
+    tags:["cheese"]
+  },
+  {
+    image:"",
+    title:"Protein Pumpkin Cookies",
+    ingredients:["30g protein powder", "120g pumpkin puree", "21g flour", "46g egg whites", "1 tsp pumpkin pie spice", "2g baking powder", "2 tsp sweetener"],
+    instructions:["Preheat oven to 350 degrees F", "Mix all dry ingredients together, then all wet ingredients, and then combine.", "Bake for 15-18 minutes."],
+    nutrition:"",
+    tags:["protein powder", "pumpkin", "cookie", "healthy"]
+  },
+  {
+    image:"",
+    title:"Pumpkin Spice Cookies",
+    ingredients:["1/2 cup sugar", "3/4 cup brown sugar", "1 egg", "2/3 cup oil", "1/2 cup pumpkin puree", "1/2 tbsp vanilla extract", "3 cups flour", "1 tsp baking soda", "1 tsp baking powder", "1/2 tbsp cinnamon", "1/4 tbsp ground cloves", "1/4 tbsp ground nutmeg", "pinch of salt"],
+    instructions:["Preheat oven to 350 degrees F", "Combine sugars, egg, oil, pumpkin and vanilla, and mix until smooth", "In separate bowl, sift together flour, baking soda, baking powder, and spices", "Mix flour and pumpkin mixture, and then scoop dough and roll each ball in extra sugar. Place cookies onto a baking sheet.", "Bake for 13-15 minutes."],
+    nutrition:"",
+    tags:["pumpkin", "cookie"]
+  },
+  {
+    image:"",
+    title:"Turkey Sausage with Sweet Potato",
+    ingredients:["1 medium or large sweet potato", "1 lb ground turkey", "1 tsp of dried herbs (italian blend works)", "2/3 tsp salt", "2 tbsp flour"],
+    instructions:["Peel, cube, and then cook the sweet potato in a pot of boiling water for 10-12 minutes", "Preheat oven to 400 degrees F", "Mash sweet potato (about 1 cup), and add it and all other ingredients except flour to a bowl", "Mix ingredients together using hands, and then add the flour", "Line a baking sheet with parchment paper, and brush it lightly with oil", "Form mixture into patties (about 12), and place them on the baking sheet", "Bake in middle of oven for 25-30 min (no need to turn them over halfway)."],
+    nutrition:"",
+    tags:["turkey", "sweet potato"]
+  },
+  {
+    image:"",
+    title:"Chicken Meatballs",
+    ingredients:["625g chicken breast", "270g peas", "100g oats", "1 egg", "1 onion", "6 cloves garlic"],
+    instructions:["Preheat oven to 350 degrees F.", "Blend all ingredients except oats and eggs in a food processor. Then combine everything together mixing by hand. Form mixture into balls, and place on a baking sheet.", "Bake for 25 minutes."],
+    nutrition:"",
+    tags:["chicken"]
+  },
+  {
+    image:"",
+    title:"Cinnamon Sugar Bagels",
+    ingredients:["1 cup flour", "2 tsp baking powder", "3/4 tsp salt", "1 cup greek yogurt", "1 egg white beaten", "sprinkle of cinnamon, or other toppings"],
+    instructions:["Preheat oven to 325 degrees F", "Mix dry ingredients with a whisk, and then add in yogurt, mixing gently so that mixture is crumbly", "Knead dough on a flour-dusted workspace", "Separate into even balls (5 balls will make each 130 cals)", "Roll into ropes and join ends to form bagel shape", "Use egg white wash on top of bagels to make topping stick", "Sprinkle toppings over bagels.", "Bake for 25 minutes."],
+    nutrition:"",
+    tags:["cinnamon", "yogurt", "breakfast"]
+  },
+  {
+    image:"",
+    title:"Gnocchi",
+    ingredients:["1 potato", "1 cup flour", "1/2 mixed egg"],
+    instructions:["Boil and mash the potato, then combine with flour and egg. Add salt or other seasonings.", "Form into a dough and and make small 1/2 inch dumplings, and press with a fork for the gnocchi look.", "Boil gnocchi in lightly salted water for 3-5 minutes or until they're all floating on the surface."],
+    nutrition:"",
+    tags:["potato", "gnocchi"]
+  },
+  {
+    image:"",
+    title:"Chicken And Corn Soup",
+    ingredients:["500g chicken thigh", "3 large carrots", "1/2 cup frozen peas", "1 onion", "1 can creamed corn", "2 chicken stock cubes", "1 tbsp ground ginger", "pepper", "1/2 cup water", "3 tbsp flour or cornstarch"],
+    instructions:["Put all ingredients except the flour in the slow cooker, and cook on high for 4 hours.", "Shred the chicken with a fork, and mix in the flour until soup thickens", "Keep on warm until serving"],
+    nutrition:"",
+    tags:["chicken", "soup"]
   }
   // {
   //   image:"",
