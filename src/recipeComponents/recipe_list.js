@@ -406,6 +406,14 @@ export const listOfRecipes = [
     instructions:["Put all ingredients except the flour in the slow cooker, and cook on high for 4 hours.", "Shred the chicken with a fork, and mix in the flour until soup thickens", "Keep on warm until serving"],
     nutrition:"",
     tags:["chicken", "soup"]
+  },
+  {
+    image:"",
+    title:"Mom's Grain-Free Waffles",
+    ingredients:["1 1/2 cups almond flour", "1/2 cup tapioca starch", "1 1/2 tbsp baking powder", "1/2 tsp salt", "4 eggs, separated", "1 1/2 cups milk", "1 tsp vanilla", "1/4 cup butter, melted"],
+    instructions:["Separate eggs. In a clean, oil free bowl, beat egg whites until stiff peaks form, about 5-10 minutes on high speed.", "While eggs beat, sift dry ingredients together in separate bowl.", "If using a stand mixer to beat egg whites, transfer egg whites to another separate bowl.", "In the stand mixer, beat together egg yolks, milk, vanilla, and melted butter.", "Slowly add dry ingredients to egg yolk mixture. Mix well. Batter should be like pancake batter or a little thinner.", "Heat up waffle iron, and brush with oil just before use.", "Using spatula, fold in the egg whites to the batter. Do not mix well. Just blend gently together. Spoon batter onto waffle iron. Makes about 4 waffles."],
+    nutrition:"",
+    tags:["waffle", "breakfast"]
   }
   // {
   //   image:"",
