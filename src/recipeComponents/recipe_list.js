@@ -74,7 +74,7 @@ export const listOfRecipes = [
   {
     image:"",
     title:"Banana Bread",
-    ingredients:["2 ripe bananas", "1 egg", "1/4 cup greek yogurt", "1/2 tsp vanilla", "1 cup flour", "1/4 tsp baking powder", "1/2 tsp baking soda", "1/2 tsp cinnamon", "1/8 tsp salt"],
+    ingredients:["3 ripe bananas (1 cup mashed)", "1 egg", "1/4 cup greek yogurt", "1/2 tsp vanilla", "1 cup flour", "1/2 tsp baking powder", "1/2 tsp baking soda", "1/2 tsp cinnamon", "1/8 tsp salt"],
     instructions:["Preheat oven to 350 degrees F and grease a loaf pan", "Mix all wet ingredients together", "Mix all dry ingredients in a separate bowl", "Pour dry mix into wet mix, and fold without overmixing", "Add extra mix-ins: blueberries, nuts, chocolate chips, etc", "Pour into loaf pan", "Bake for 40 minutes or until a knife inserted comes out clean"],
     nutrition:"",
     tags:["banana", "bread", "yogurt", "healthy"]
